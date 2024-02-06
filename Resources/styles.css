@@ -1,0 +1,174 @@
+/* Add your custom CSS styles here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+header {
+  text-align: center;
+  background-color: #220d0d7c;
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+  color: #fff;
+}
+
+.header {
+  background-color: black;
+  color:white;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p,
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+article {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+article {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button,
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled,a.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover,
+a:hover {
+  background-color: #333;
+}
+
+a:focus {
+  outline: 2px solid #333;
+}
+
+a:active {
+  background-color: #222;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  color: #555;
+}
+
+.project-card {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 5px;
+}
+
+.project-card button {
+  margin-top: 10px;
+}
+
+.project-card.expanded {
+  max-height: none;
+  border-radius: 5px 5px 0 0;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+}
+
+  
